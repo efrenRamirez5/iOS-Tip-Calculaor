@@ -33,16 +33,6 @@ class ViewController: UIViewController {
         print("view will appear")
         // This is a good place to retrieve the default tip percentage from UserDefaults
         // and use it to update the tip amount
-        //let defaults = UserDefaults.standard
-        
-//        if (SettingsViewController.background.backgroundColor == UIColor.black) {
-//            background.backgroundColor = UIColor.black
-//        }
-        
-        
-//        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-//
-//        let
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -62,16 +52,10 @@ class ViewController: UIViewController {
     
 
     @IBAction func calculateTip(_ sender: Any) {
-//        Picker("Tip percentage", selection: $tipPercentage) {
-//            ForEach(tipPercentages, id: \.self) {
-//                Text($0, format: .percent)
-//            }
-//        }
-        
         // Get bill amount from text field imput
         let bill = Double(billAmountTextField.text!) ?? 0
         
-        // Get total tip by multiplying tip * tipPercentage
+        // Get total tip by multiplying tip * tipPercentages
         let tipPercentages = [0.10, 0.15, 0.20]
         let tip = bill *
             tipPercentages[tipControl.selectedSegmentIndex]
