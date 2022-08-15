@@ -23,13 +23,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added light/dark color theme to the settings view.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://i.imgur.com/wEuatXg.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -39,7 +39,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2022] [Efren Ramirez]
+    Copyright 2022 Efren Ramirez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
